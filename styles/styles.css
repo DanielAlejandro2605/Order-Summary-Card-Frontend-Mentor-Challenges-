@@ -1,0 +1,66 @@
+body{
+    width: 1440px;
+    font-family: 'Red Hat Text';
+}
+#container{
+    display: flex;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    box-shadow: 1px 2px 25px 7px #999999;
+    width: 72rem;
+    height: 40rem;
+    margin: 0% 7% 2% 14%;
+    align-items: center;
+    justify-content: center;
+}
+#order-card{
+    width: 25rem;
+    height: 30rem;
+    background-color: white;
+    box-shadow: 2px 2px 2px #999999;
+    border-radius: 2rem;
+    text-align: center;
+}
+#illustration-hero{
+    width: 25rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+#plan-offert{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-grow: 3;
+    flex-direction: row;
+    background-color: #ECEBEB;
+    border-radius: 1rem;
+}
+#container-icon-music{
+    margin: 1rem;
+}
+#container-plan{
+    width: 50%;
+    margin-top: -0.3rem;
+    text-align: left;
+}
+#container-plan p{
+    margin-top: -1rem;
+    margin-left: -1.5rem;
+}
+h1{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    padding: 0rem;
+}
+p{
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+#container-link{
+    color: hsl(245, 75%, 52%);
+    font-weight: 500;
+    margin: 2rem;
+}
+a{
+    text-decoration: underline;
+}
