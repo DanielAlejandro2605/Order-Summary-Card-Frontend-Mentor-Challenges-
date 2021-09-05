@@ -1,6 +1,9 @@
 body{
     width: 1440px;
     font-family: 'Red Hat Text';
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 #container{
     display: flex;
@@ -8,14 +11,15 @@ body{
     background-repeat: no-repeat;
     box-shadow: 1px 2px 25px 7px #999999;
     width: 72rem;
-    height: 40rem;
-    margin: 0% 7% 2% 14%;
-    align-items: center;
+    height: 38rem;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
     justify-content: center;
 }
 #order-card{
     width: 25rem;
-    height: 30rem;
+    height: 35rem;
+    margin-top: 1.5rem;
     background-color: white;
     box-shadow: 2px 2px 2px #999999;
     border-radius: 2rem;
@@ -63,4 +67,18 @@ p{
 }
 a{
     text-decoration: underline;
+}
+.button{
+    margin-top: 1rem;
+    width: 80%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-family: 'Red Hat Text';
+    border: 0rem; 
+}
+#payment{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0px 6px 15px -5px #000000;
 }
