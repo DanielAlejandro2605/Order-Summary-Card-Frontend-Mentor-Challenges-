@@ -5,4 +5,4 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 The challenge is to recreate as closely as possible the order summary card provided by Frontend Mentor. 
 
 
-![](./images/screenshot_solution_desktop.jpg)
+![Screenshot Solution](./images/screenshot_solution_desktop.png)
